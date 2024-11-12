@@ -20,6 +20,10 @@ html{
     margin-bottom: 50px;
 
        }
+giscus{
+    width:400px;
+    border-radius:30px;
+}
 body{
     background-image:url(assets/bgcool.jpg);
     background-repeat:no-repeat;
