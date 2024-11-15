@@ -78,35 +78,43 @@ html{
 }
 @media (max-width:500px){
     .container .music-container .box{
-        height: 30rem;
+        height: 24rem;
         width: 90%;
         flex-flow:column;
-        background: linear-gradient(180deg ,#fff 40%, #333 );
+        background: linear-gradient(180deg ,#333 40%, #ddd );
     }
     .container .music-container .box .image {
        
-        width: 466px;
-      height: 200px;
+        width: 150px;
+      height: 150px;
+      position: absolute;
+      top: 2%;
+      left: 2%;
+
+
+
+
+
       
     }
     .container .music-container .box .image img{
        
-        width: 466px;
-      height: 200px;
+        width: 150px;
+      height: 150px; 
       border-radius: 15px;
     }
     .container .music-container .music audio{
         float: bottom;
         width: 338px;
         position: absolute;
-        top: 85%;
+        top: 80%;
         left: 0%;
        
     }
     .music-container .box .title {
         position: absolute;
-        left: 3%;
-        top: 75%;
+        left: 50%;
+        top: 5%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 13px;
        
@@ -153,7 +161,7 @@ html{
     }
    .nav_links li{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         text-shadow:0 .5rem #000 ;
         color: aliceblue;
         text-decoration:none;
@@ -163,7 +171,17 @@ html{
        align-items: center;
        align-content: center;
     }
-  
+    .artwork{
+        position: absolute;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        top: 33%;
+        left: 50%;
+       
+       
+    }
 }
 
 
